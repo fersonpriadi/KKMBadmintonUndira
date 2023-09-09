@@ -316,6 +316,20 @@ footer {
 	width: 120vh;
 	height: 100vh;
 }
+.btn-contact-chat img {
+	margin-top : 5px;
+}
+.btn-contact-chat {
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	justify-content: start;
+	align-items: left;
+}
+.btn-contact-chat a {
+	text-align: center;
+	margin-left: 6px;
+}
 
 @keyframes puterin {
 	100% {
