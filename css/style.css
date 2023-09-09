@@ -35,9 +35,36 @@ a {
 	
 	/* background-color: */
 }
+
+
+/* section keg-mahasiswa */
 .container-home {
 	text-align: center;
-	margin-top : 10px;
+	margin : 0 0 10px 0;
+	background-color: #148F77;
+	padding-top : 20px;
+	padding-bottom: 10px;
+}
+
+
+.section-home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 10vh;
+}
+.home-table-jadwal {
+	margin : 40px 0;
+	box-shadow: 3px 3px 1px rgb(178, 154, 154);
+	text-align: center;
+}
+.home-table-detail {
+	margin : 40px 0;
+	box-shadow: 3px 3px 1px rgb(178, 154, 154);
+	text-align: center;
+}
+.section-home h3 {
+	margin-bottom: 10px;
 }
 .container-head1 {
 	background-color: rgb(20, 80, 154);
@@ -375,6 +402,13 @@ footer {
 		height: 80vh;
 		margin-right: 0;
 	}
+	
+	.section-home {
+		display: block;
+		font-size: 9px;
+		justify-content: center;
+		align-items: center;
+	}
 
 }
 @media screen and (max-width: 345px){
@@ -387,6 +421,12 @@ footer {
 	.join-wa img {
 		width: 20px;
 		padding-bottom: 0;
+	}
+	.section-home {
+		display: block;
+		font-size: 9px;
+		justify-content: center;
+		align-items: center;
 	}
 
 }
