@@ -1,5 +1,5 @@
 * {
-	padding-top:5px;
+	padding-top:0;
 	margin:0;
 	font-family: sans-serif;
 
@@ -11,6 +11,8 @@ a {
 .medsos {
 	padding:30px 0 0 0;
 	background-color: white;
+	margin-bottom: 10px;
+	margin-left : 20px;
 	/* width: 10px; */
 }
 .medsos ul li {
@@ -41,6 +43,9 @@ a {
 	background-color: rgb(20, 80, 154);
 	left : 0;
 	right: 0;
+}
+.container-contact {
+	margin-bottom: 20px;
 }
 .fa-ig {
 	width: 28px;
