@@ -9,8 +9,9 @@ a {
 	text-decoration: none;
 }
 .medsos {
-	padding:10px 0 0 0;
+	padding:30px 0 0 0;
 	background-color: white;
+	/* width: 10px; */
 }
 .medsos ul li {
 	display: inline-block;
