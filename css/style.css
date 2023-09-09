@@ -32,6 +32,10 @@ a {
 	
 	/* background-color: */
 }
+.container-home {
+	text-align: center;
+	margin-top : 10px;
+}
 .container-head1 {
 	background-color: rgb(20, 80, 154);
 	left : 0;
@@ -105,14 +109,6 @@ header ul li a:hover {
 	text-decoration: none;
 	color : black;
 }
-.class-display {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding : 10px;
-	margin-left : 60vh;
-	width: 15cm;
-}
 .list-detail {
 	text-align: center;
 	margin-top : 0;
@@ -122,22 +118,6 @@ header ul li a:hover {
 	margin-bottom: 0;
 }
 
-
-
-.slide-doc-item {
-	align-items: center;
-	text-align: center;
-}
-
-section {
-	padding:50px 0;
-}
-section h3 {
-	text-align: center;
-	padding:20px 0;
-	color: #148F77;
-	margin-bottom: 25px;
-}
 .about,
 .service {
 	padding-bottom: 100px;
@@ -270,12 +250,13 @@ footer {
 }
 
 /* star join / register */
-.register-detail label {
-	text-align: center;
-	display: flex;
-	padding-right: -200vh;
-	margin-bottom: 10px;
-	margin-left : 10qvh;
+.register-detail {
+	align-items: center;
+	margin-top : 10vh;
+}
+.section-container-join {
+	margin : 40px 0 ;
+	background-color: white;
 }
 .join-wa {
 	float : right;
@@ -308,7 +289,15 @@ footer {
 		transform: rotate(360deg);
 	}
 }
-@media screen and (max-width: 912px){
+
+/* @media screen and (min-width: 600px) { */
+	/* .doc-img-detail .doc-img-detail-list { */
+		/* align-items: cent */
+		/* margin-left: -50vh; */
+	/* } */
+
+
+@media screen and (max-width: 920px){
 	.container {
 		width:90%;
 	}
@@ -357,4 +346,40 @@ footer {
 	.bph-detail h5 {
 		display: none;
 	}
+	.class-display {
+		margin-left: -20vh;
+	}
+
+	.section-container-join {
+		display: block;
+	}
+	.join-wa {
+		margin-top : 10px;
+	}
+	.register-detail p {
+		font-size: 15px;
+		margin-top: 40px;
+		margin-bottom : 30px;
+		text-align: center;
+		justify-content: center;
+		display: block;
+	}
+	.frame-register {
+		width: 80%;
+		height: 80vh;
+	}
+
+}
+@media screen and (max-width: 345px){
+
+	.join-wa {
+		display: flex;
+		align-items: center;
+		font-size: 10px;
+	}
+	.join-wa img {
+		width: 20px;
+		padding-bottom: 0;
+	}
+
 }
