@@ -377,71 +377,27 @@ footer {
 	}
 }
 
-@media screen and (max-width: 500px){
-
-	.box .col-4 {
-		width:100%;
-		float: none;
-		margin-bottom: 20px;
-	}
-	/* star dokumentasi display */
-	.class-display {
-		margin-left: 10vh;
-		width: 50vh;
-	}
-	.banner {
-		background-size: 50%;
-	}
-	.bph .col-1 {
-		display: block;
-		margin-left: -20vh;
-		/* width: 50%; */
-	}
-	.bph .col-2 {
-		display: block;
-		margin-left: -20vh;
-		/* column-gap: 10vh; */
-		/* width: 50%; */
-	}
-	.bph .col-2 img {
-		margin-bottom: 50px;
-	}
-	.bph .col-1 img {
-		margin-bottom: 50px;
-		margin-left : -45px;
-	}
-	.bph-detail p {
-		display: none;
-	}
-	.bph-detail h5 {
-		display: none;
-	}
-	.class-display {
-		margin-left: -20vh;
-	}
-
-	.section-container-join {
-		display: block;
-	}
-	.join-wa {
-		margin-top : 10px;
-	}
-	.register-detail p {
-		font-size: 15px;
-		margin-top: 40px;
-		margin-bottom : 30px;
-		text-align: center;
-		justify-content: center;
-		display: block;
-	}
-	.frame-register {
-		width: 80%;
-		height: 80vh;
-		margin-right: 0;
-	}
-
-}
 @media screen and (max-width: 550px){
+	.menu-dropdown-info button {
+		width: auto;
+		height: auto;
+		margin-bottom: 10px;
+		margin-left: 2vh;
+	}
+	.menu-dropdown-info {
+		display: block;
+	}
+
+
+
+	.navigation-menu {
+		width: auto;
+		height: auto;
+	}
+	.banner h2 {
+		color : blue;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
 
 	.container-menu ul {
 		display: flex;
@@ -449,6 +405,7 @@ footer {
 		margin-top: 50px;
 		text-align: center;
 		margin-left: -30vh;
+
 	}
 	.container-menu ul li a {
 		font-size: 8px;
