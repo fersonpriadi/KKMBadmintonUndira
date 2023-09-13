@@ -14,6 +14,10 @@ a {
 }
 .header-utama {
 	background-image: url('../img/badminton1.jpg');
+	background-size: 100%;
+	/* background-repeat: no-repeat; */
+	min-height: 100%;
+	min-width: 100%;
 	/* text-decoration: none; */
 }
 .navigation-menu {
@@ -187,16 +191,6 @@ header ul li a:hover {
 
 
 }
-/* .banner:after {
-	content:'';
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(20, 143, 119, .6); */
-/* } */
 .banner h2 {
 	color: black;
 	font-weight: 900;
