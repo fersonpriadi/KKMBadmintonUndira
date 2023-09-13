@@ -412,6 +412,11 @@ footer {
 	}
 
 }
+@media screen and (max-width: 650px){
+	.medsos {
+		margin-right: 9vh;
+	}
+}
 
 @media screen and (max-width: 853px){
 	.container-menu ul {
@@ -429,7 +434,7 @@ footer {
 
 }
 
-@media screen and (max-width: 591px){
+@media screen and (max-width: 594px){
 	.menu-dropdown-info button {
 		width: auto;
 		height: auto;
@@ -470,7 +475,7 @@ footer {
 	}
 	.medsos ul li {
 		width: auto;
-		margin-top : 13vh;
+		margin-top : 20vh;
 		margin-bottom : -5vh
 	}
 	.medsos ul {
