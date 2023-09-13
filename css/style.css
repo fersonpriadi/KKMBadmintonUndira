@@ -8,27 +8,90 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
-.medsos {
-	padding:30px 0 0 0;
-	background-color: white;
-	margin-bottom: 10px;
-	margin-left : 20px;
-	/* width: 10px; */
+.header-utama {
+	background-image: url('../img/badminton1.jpg');
+	/* text-decoration: none; */
+}
+.navigation-menu {
+	background-color: #148F77;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.container-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container-menu ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	margin-left: 40vh;
+}
+.container-menu ul li {
+	list-style-type: none;
+	align-items: end;
+	justify-content: end;
+}
+.container-menu ul li {
+	font-weight: 600;
+	font-size: 20px;
+	color : black;
+	box-shadow: 1px 1px 6px rgb(228, 16, 16);
+	padding : 5px;
+	margin-top: 30px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.container-menu ul li  a{
+	text-decoration: none;
+	color: black;
+	padding: 0;
+}
+.container-menu h1 a {
+	text-decoration: none;
 }
 .medsos ul li {
-	display: inline-block;
-	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: start;
+}
+.medsos ul li img {
+	width: 30px;
+	border-radius: 30px;
+	margin-top: 5vh;
 	margin-right: 10px;
+
+	margin-bottom : 10px;
 }
-.fa-tiktok {
-	width: 20px;
-	margin-top : -4px;
-	margin-left : -3px;
-	margin-bottom : -5px;
+.menu-dropdown-info{
+	display: flex;
+	justify-content: end;
+	margin-right: 20px;
+	column-gap: 10px;
 }
-#fa-tiktok {
-	margin-bottom: 2px;
+.home-drop-list li {
+	font-size: 12px;
 }
+.home-drop-list li a span {
+	color: red;
+	font-weight: 500;
+}
+.home-drop-list li a:hover {
+	background-color: aqua;
+}
+.page-landing {
+	font-weight: 700;
+	font-size: 15px;
+	font-style: italic;
+	color: black;
+	margin-left: 10px;
+	margin : 2px 0 1px 0;
+}
+
+
+
 .container {
 	width:80%;
 	margin:-1vh auto;
@@ -41,27 +104,9 @@ a {
 .container-home {
 	text-align: center;
 	margin : 0 0 10px 0;
-	background-color: #148F77;
+	background-color: white;
 	padding-top : 20px;
 	padding-bottom: 10px;
-}
-
-
-.section-home {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	column-gap: 10vh;
-}
-.home-table-jadwal {
-	margin : 40px 0;
-	box-shadow: 3px 3px 1px rgb(178, 154, 154);
-	text-align: center;
-}
-.home-table-detail {
-	margin : 40px 0;
-	box-shadow: 3px 3px 1px rgb(178, 154, 154);
-	text-align: center;
 }
 .section-home h3 {
 	margin-bottom: 10px;
@@ -70,6 +115,14 @@ a {
 	background-color: rgb(20, 80, 154);
 	left : 0;
 	right: 0;
+}
+.container-menu h1 {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 900;
+}
+.container-menu h1 a {
+	color : black;
 }
 .container-contact {
 	margin-bottom: 20px;
@@ -90,6 +143,9 @@ header h1 {
 	padding:15px 0;
 	color: #148F77;
 }
+.banner h2 {
+	opacity: 0.60;
+}
 header ul {
 	float: right;
 }
@@ -101,11 +157,13 @@ header ul li a {
 	display: inline-block;
 }
 header ul li a:hover {
-	color: #040404;
+	color: white;
 }
 .active {
 	/* background-color: #148F77; */
 	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
 }
 .banner {
 	height: 100vh;
@@ -123,12 +181,13 @@ header ul li a:hover {
 	background-color: rgba(20, 143, 119, .6); */
 /* } */
 .banner h2 {
-	color: blue;
-	background-color: aqua;
+	color: black;
+	font-weight: 900;
+	font-size: 40px;
+	margin-top : 20px ;
+	/* background-color: aqua; */
 	text-align: center;
-	z-index: 1;
 	padding: 20px 25px;
-	border:3px solid #fff;
 }
 
 /* star dokumentas */
@@ -153,7 +212,7 @@ header ul li a:hover {
 
 .about,
 .service {
-	padding-bottom: 100px;
+	margin-top: 5vh;
 }
 .about p {
 	color: #666;
@@ -161,9 +220,6 @@ header ul li a:hover {
 	line-height: 25px;
 	margin-bottom: 20px;
 	text-align: center;
-}
-.service {
-	background-color: #f9f9f9;
 }
 .box {
 	color: #148F77;
@@ -198,28 +254,6 @@ footer {
 	background-color: #333;
 	color: #fff;
 	text-align: center;
-}
-.bg-loader {
-	background-color: #eee;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 9999;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.bg-loader .loader {
-	width:100px;
-	height: 100px;
-	border:3px solid #fff;
-	border-radius: 50%;
-	border-top-color: #148F77;
-	border-right-color: #148F77;
-	border-bottom-color: #148F77;
-	animation: puterin .8s linear infinite;
 }
 .label {
 	background-color: #148F77;
@@ -337,11 +371,17 @@ footer {
 	}
 }
 
-/* @media screen and (min-width: 600px) { */
-	/* .doc-img-detail .doc-img-detail-list { */
-		/* align-items: cent */
-		/* margin-left: -50vh; */
-	/* } */
+
+
+/* star kampus-tandur.html */
+
+
+
+
+/* end kampus-tandur.html */
+
+
+
 
 
 @media screen and (max-width: 920px){
@@ -415,13 +455,6 @@ footer {
 		width: 80%;
 		height: 80vh;
 		margin-right: 0;
-	}
-	
-	.section-home {
-		display: block;
-		font-size: 9px;
-		justify-content: center;
-		align-items: center;
 	}
 
 }
