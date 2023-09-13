@@ -67,11 +67,15 @@ a {
 	align-items: start;
 	margin-top: 5vh;
 }
+.medsos ul {
+	margin-left : -14vh;
+}
 .medsos ul li img {
-	width: 5vh;
+	width: 4vh;
 	border-radius: 30px;
-	margin-top : 13vh;
-	margin-left : 20px
+	margin-top : 4vh;
+	margin-bottom : -5vh;
+	margin-left : 20px;;
 }
 
 /* header end  */
@@ -83,6 +87,9 @@ a {
 	margin-right: 20px;
 	margin-top : 50px;
 	column-gap: 10px;
+}
+.menu-dropdown-info button {
+	font-size: 10px;
 }
 .home-drop-list li {
 	font-size: 12px;
@@ -406,7 +413,7 @@ footer {
 
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 520px){
 	.menu-dropdown-info button {
 		width: auto;
 		height: auto;
@@ -415,6 +422,7 @@ footer {
 	}
 	.menu-dropdown-info {
 		display: block;
+		margin-top : 10vh;
 	}
 
 
@@ -425,6 +433,7 @@ footer {
 	}
 	.banner h2 {
 		color : blue;
+		font-size: 20px;
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
 
@@ -433,8 +442,7 @@ footer {
 		position: relative;
 		margin-top: 50px;
 		text-align: center;
-		margin-left: -30vh;
-
+		margin-left: -23vh;
 	}
 	.container-menu ul li a {
 		font-size: 8px;
@@ -449,7 +457,8 @@ footer {
 	}
 	.medsos ul li {
 		width: auto;
-		margin-top : 10vh;
+		margin-top : 9vh;
+		margin-bottom : -5vh
 	}
 	.medsos ul {
 		display: flex;
