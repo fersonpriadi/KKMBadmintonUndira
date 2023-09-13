@@ -376,6 +376,27 @@ footer {
 		transform: rotate(360deg);
 	}
 }
+
+/* start peserta-tandur.html css */
+.utama-tandur h1 {
+	text-align: center;
+}
+.utama-tandur button a{
+	text-decoration: none;
+	color: black;
+}
+
+.utama-tandur button {
+	border-radius: 5px;
+	background-color: #148F77;
+}
+
+
+
+/* end peserta-tandur.html css */
+
+
+
 @media screen and (max-width: 395px){
 	.container-menu ul li {
 		font-size: 7px;
