@@ -65,10 +65,10 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: start;
-	margin-top: 5vh;
+	margin-top: 8vh;
 }
 .medsos ul {
-	margin-left : -14vh;
+	margin-left : -12vh;
 }
 .medsos ul li img {
 	width: 4vh;
@@ -413,7 +413,23 @@ footer {
 
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 853px){
+	.container-menu ul {
+		margin-left : -6px;
+		width: auto;
+		
+	}
+	.container-menu ul li {
+		font-size: 12px;
+	}
+	
+	.medsos ul {
+		margin-left : 1px;
+	}
+
+}
+
+@media screen and (max-width: 591px){
 	.menu-dropdown-info button {
 		width: auto;
 		height: auto;
@@ -422,11 +438,8 @@ footer {
 	}
 	.menu-dropdown-info {
 		display: block;
-		margin-top : 10vh;
+		margin-top : 13vh;
 	}
-
-
-
 	.navigation-menu {
 		width: auto;
 		height: auto;
@@ -457,11 +470,12 @@ footer {
 	}
 	.medsos ul li {
 		width: auto;
-		margin-top : 9vh;
+		margin-top : 13vh;
 		margin-bottom : -5vh
 	}
 	.medsos ul {
 		display: flex;
+		margin-left : 1px;
 		/* position: absolute */
 	}
 
