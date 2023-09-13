@@ -7,6 +7,10 @@
 a {
 	color: inherit;
 	text-decoration: none;
+
+/* header start  */
+
+
 }
 .header-utama {
 	background-image: url('../img/badminton1.jpg');
@@ -14,9 +18,10 @@ a {
 }
 .navigation-menu {
 	background-color: #148F77;
-	align-items: center;
 	display: flex;
-	flex-direction: row;
+	position: fixed;
+	right: 0;
+	left: 0;
 }
 .container-menu {
 	display: flex;
@@ -56,19 +61,23 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: start;
+	margin-top: 5vh;
 }
 .medsos ul li img {
-	width: 30px;
+	width: 5vh;
 	border-radius: 30px;
-	margin-top: 5vh;
-	margin-right: 10px;
-
-	margin-bottom : 10px;
+	margin-top : 13vh;
+	margin-left : 20px
 }
+
+/* header end  */
+
+/* drop down menu start */
 .menu-dropdown-info{
 	display: flex;
 	justify-content: end;
 	margin-right: 20px;
+	margin-top : 50px;
 	column-gap: 10px;
 }
 .home-drop-list li {
@@ -81,6 +90,8 @@ a {
 .home-drop-list li a:hover {
 	background-color: aqua;
 }
+
+/* dropdown menu end */
 .page-landing {
 	font-weight: 700;
 	font-size: 15px;
@@ -224,11 +235,6 @@ header ul li a:hover {
 .box {
 	color: #148F77;
 }
-/* .box:after {
-	content: '';
-	display: block;
-	clear: both; */
-
 .box .col-4 {
 	width:25%;
 	padding:20px;
@@ -371,31 +377,8 @@ footer {
 	}
 }
 
+@media screen and (max-width: 500px){
 
-
-/* star kampus-tandur.html */
-
-
-
-
-/* end kampus-tandur.html */
-
-
-
-
-
-@media screen and (max-width: 920px){
-	.container {
-		width:90%;
-	}
-	header h1 {
-		text-align: center;
-		float: none;
-	}
-	header ul {
-		text-align: center;
-		float: none;
-	}
 	.box .col-4 {
 		width:100%;
 		float: none;
@@ -458,7 +441,34 @@ footer {
 	}
 
 }
-@media screen and (max-width: 345px){
+@media screen and (max-width: 550px){
+
+	.container-menu ul {
+		display: flex;
+		position: relative;
+		margin-top: 50px;
+		text-align: center;
+		margin-left: -30vh;
+	}
+	.container-menu ul li a {
+		font-size: 8px;
+	}
+	.container-menu h1 {
+		margin-top: -5vh;
+	}
+	.menu-dropdown-info button {
+		font-size: 10px;
+		margin-right: 20px;
+		width: auto;
+	}
+	.medsos ul li {
+		width: auto;
+		margin-top : 10vh;
+	}
+	.medsos ul {
+		display: flex;
+		/* position: absolute */
+	}
 
 	.join-wa {
 		display: flex;
