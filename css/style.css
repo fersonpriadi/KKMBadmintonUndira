@@ -185,6 +185,7 @@ header ul li a:hover {
 	min-width: 100%;
 
 
+
 }
 /* .banner:after {
 	content:'';
@@ -380,6 +381,14 @@ footer {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+@media screen and (max-width: 395px){
+	.container-menu ul li {
+		font-size: 7px;
+		width: 100%;
+		height: 100%;
+	}
+
 }
 
 @media screen and (max-width: 550px){
