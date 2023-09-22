@@ -31,18 +31,22 @@ a {
 }
 .container-menu {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	width: 100%;
 	height: 100%;
+	padding-top : 2vh;
+	padding-bottom : 3vh;
 }
 .container-menu ul {
 	display: flex;
-	justify-content: space-between;
-	align-items: end;
-	margin-left: 40vh;
+	justify-content: center;
+	column-gap: 15px;
+	align-items: center;
 }
 .container-menu ul li {
 	list-style-type: none;
+	margin-left : 4px;
+	/* margin-right: 5px; */
 }
 .container-menu ul li {
 	font-weight: 600;
@@ -51,7 +55,7 @@ a {
 	box-shadow: 1px 1px 6px rgb(228, 16, 16);
 	padding : 2px;
 	margin-top: 20px;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 	border-radius: 4px;
 }
 
@@ -85,7 +89,7 @@ a {
 .medsos ul li img {
 	width: 4vh;
 	border-radius: 30px;
-	margin-top : 4vh;
+	margin-top : 6vh;
 	margin-bottom : -5vh;
 	margin-left : 20px;;
 }
@@ -541,7 +545,7 @@ footer {
 	}
 
 	.container-menu ul  {
-		width: 50%;
+		width: 100%;
 		/* margin-top: 2vh; */
 	}
 
@@ -592,10 +596,19 @@ footer {
 	.medsos {
 		margin-right: 9vh;
 	}
+	.container-menu ul li a  {
+		font-size: 9px;
+	}
 	
 }
 
 @media screen and (max-width:1121px) {
+	.container-menu {
+		width: auto;
+	}
+	.medsos ul li {
+		margin-top : 15vh;
+	}
 	.home-img-pengukuhan  {
 		display: block;
 	}
@@ -613,10 +626,16 @@ footer {
 }
 
 @media screen and (max-width: 853px){
+	.container-menu h1 a {
+		font-size: 10px;
+	}
 	.container-menu ul {
-		margin-left : -6px;
+		/* margin-left : -6px; */
 		width: auto;
 		
+	}
+	.doc-latihan-img img {
+		width: auto;
 	}
 	.container-menu ul li {
 		font-size: 12px;
@@ -658,28 +677,35 @@ footer {
 		margin-top : 13vh;
 	}
 	.navigation-menu {
-		width: 100%;
-		height: 10%;
+		width: auto;
+		height: 15%;
+		right: 0;
+		left: 0;
 	}
 	.banner h2 {
 		color : blue;
 		font-size: 20px;
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
+	.container-menu {
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
 
 	.container-menu ul {
 		display: flex;
-		position: relative;
 		margin-top: 50px;
-		/* margin-left: -23vh; */
+		padding-left: -50vh;
 	}
 	.container-menu ul li a {
 		font-size: 8px;
 	}
-	.container-menu h1 a {
-		font-size : 10px;
-		width: 0;
-		height: 0;
+	.container-menu h1 a span {
+		font-size : 5px;
+		padding: 0;
+		margin: 0;
+		/* display: none; */
 	}
 	.menu-dropdown-info button {
 		font-size: 15px;
