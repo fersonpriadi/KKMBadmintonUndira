@@ -124,7 +124,8 @@ a {
 	.list-proses-latihan h4 {
 		text-align: center;
 		color: blue;
-		font-size: 35px;
+		margin-top: 5vh;
+		font-size: 25px;
 		font-weight: 700;
 		font-family: 'Times New Roman', Times, serif;
 	}
@@ -134,6 +135,7 @@ a {
 		align-items: center;
 		text-align: center;
 		column-gap: 4vh;
+		transition: 5s;
 		}
 	.list-proses-latihan-item .accordion-item:hover {
 		background-color: burlywood;
@@ -335,7 +337,7 @@ header ul li a:hover {
 	text-decoration: none;
 }
 .banner {
-	height: 175vh;
+	height: 140vh;
 	background-color:  #0a1922;
 	background-repeat: no-repeat scroll;
 	background-size: 100%;
