@@ -4,6 +4,9 @@
 	font-family: sans-serif;
 
 }
+html {
+	scroll-behavior: smooth;
+}
 a {
 	color: inherit;
 	text-decoration: none;
@@ -22,6 +25,7 @@ a {
 }
 .navigation-menu {
 	background-color: rgb(25, 25, 235);
+	scroll-behavior: smooth;
 	display: flex;
 	flex-direction: row;
 	position: fixed;
@@ -81,10 +85,13 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: start;
-	margin-top: 8vh;
+	margin-top: 10vh;
+	width: 10%;
+	height: 100%;
 }
 .medsos ul {
 	margin-left : -12vh;
+	
 }
 .medsos ul li img {
 	width: 4vh;
@@ -102,10 +109,53 @@ a {
 	justify-content: end;
 	margin-right: 20px;
 	margin-top : 50px;
+	margin-bottom: 10vh;
 	column-gap: 10px;
+	scroll-behavior: smooth;
 }
 .menu-dropdown-info button {
 	font-size: 10px;
+}
+/* list-proses-latihan */
+	.list-proses-latihan {
+		width: auto;
+		height: auto;
+	}
+	.list-proses-latihan h4 {
+		text-align: center;
+		color: blue;
+		font-size: 35px;
+		font-weight: 700;
+		font-family: 'Times New Roman', Times, serif;
+	}
+	.list-proses-latihan-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		column-gap: 5vh;
+		}
+	.list-proses-latihan-item .accordion-item:hover {
+		background-color: burlywood;
+	}
+	.list-proses-latihan-item .accordion-item {
+		border-radius: 5%;
+	}
+
+
+/* end-proses-latihan */
+.display-img-kegiatan img {
+	width: 45%;
+	box-sizing: border-box;
+}
+.display-keg-item {
+	text-align: center;
+	box-sizing: border-box;
+	margin-top : 10vh;
+	margin-bottom: 15vh;
+	padding-bottom: 4vh;
+	position: sticky;
+
 }
 .home-drop-list li {
 	font-size: 12px;
@@ -285,8 +335,8 @@ header ul li a:hover {
 	text-decoration: none;
 }
 .banner {
-	height: 100vh;
-	background-image: url('../img/banner1.jpg');
+	height: 150vh;
+	background-color:  #0a1922;
 	background-repeat: no-repeat scroll;
 	background-size: 100%;
 	min-height: 100%;
@@ -599,6 +649,15 @@ footer {
 	.container-menu ul li a  {
 		font-size: 9px;
 	}
+	.container-contact-list-item div a img {
+		width: 70px;
+	}
+	.container-contact-list-item{
+		display: flex;
+		flex-direction: row;
+		margin : 0;
+		padding : 0;
+	}
 	
 }
 
@@ -660,6 +719,18 @@ footer {
 
 	.container-img-pengukuhan img {
 		margin-top : 5px;
+	}
+	.list-proses-latihan-item {
+		display: block;
+		width: auto;
+		height: 50%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.list-proses-latihan h4 {
+		font-size: 25px;
+		color: white;
 	}
 
 
