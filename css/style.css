@@ -133,7 +133,7 @@ a {
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		column-gap: 5vh;
+		column-gap: 4vh;
 		}
 	.list-proses-latihan-item .accordion-item:hover {
 		background-color: burlywood;
@@ -145,14 +145,14 @@ a {
 
 /* end-proses-latihan */
 .display-img-kegiatan img {
-	width: 45%;
+	width: 75%;
 	box-sizing: border-box;
 }
 .display-keg-item {
 	text-align: center;
 	box-sizing: border-box;
 	margin-top : 10vh;
-	margin-bottom: 15vh;
+	margin-bottom: 5vh;
 	padding-bottom: 4vh;
 	position: sticky;
 
@@ -335,7 +335,7 @@ header ul li a:hover {
 	text-decoration: none;
 }
 .banner {
-	height: 150vh;
+	height: 175vh;
 	background-color:  #0a1922;
 	background-repeat: no-repeat scroll;
 	background-size: 100%;
